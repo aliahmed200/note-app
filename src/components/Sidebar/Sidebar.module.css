@@ -1,0 +1,70 @@
+.nav {
+  height: 100%;
+  padding: 20px 12px;
+  background-color: var(--white-900);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 2px solid var(--white-700);
+  position: relative;
+}
+
+.nav ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.nav ul li {
+  width: 100%;
+  padding: 0px;
+  font-size: 18px;
+  transition: background-color 350ms;
+}
+
+.nav ul li a,
+.nav ul li span {
+  display: inline-block;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.nav ul li i {
+  font-size: 22px;
+}
+
+.nav ul li i {
+  font-size: 22px;
+}
+
+.nav [class="active"],
+.nav li:hover {
+  background-color: var(--violet-100);
+}
+
+.nav .active i,
+.nav li:hover i {
+  transition: color 350ms;
+}
+
+.nav .active i,
+.nav li:hover i {
+  color: var(--violet-700);
+}
+
+.change {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-700);
+  border-right: 2px solid var(--white-600);
+  padding: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}

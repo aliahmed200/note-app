@@ -1,0 +1,19 @@
+.notes {
+  --gap: 10px;
+  --number-of-notes: 3;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap);
+}
+
+.notes > * {
+  width: calc(
+    (100% - calc(var(--gap) * (var(--number-of-notes) - 1))) /
+      var(--number-of-notes)
+  );
+}
+
+.empty {
+  height: calc(100vh - 100px);
+}

@@ -1,0 +1,22 @@
+.note {
+  --padding: 15px;
+  background-color: var(--white-900);
+  border: 2px solid var(--white-700);
+  border-radius: 12px;
+}
+
+.note [class="note-body"] {
+  padding: var(--padding);
+}
+
+.note [class="note-body"] .read-more {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.note [class="note-footer"] {
+  padding: 5px var(--padding);
+  background-color: rgb(33, 37, 41, 0.05);
+}

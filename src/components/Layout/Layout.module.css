@@ -1,0 +1,24 @@
+:root {
+  --layout: 12;
+}
+
+.sidebar {
+  --column: 2;
+  width: calc(100% * var(--column) / var(--layout));
+  min-width: 250px;
+  transition: width 200ms;
+}
+
+.sidebar-mini {
+  width: 70px;
+  transition: width 350ms;
+}
+
+.sidebar-mini i {
+  margin: 0 !important;
+}
+
+.content {
+  padding: 15px;
+  flex-grow: 1;
+}

@@ -1,0 +1,26 @@
+section:has(.container) {
+  background-color: var(--white-700);
+}
+
+.container {
+  width: 90%;
+}
+
+.container form {
+  background-color: var(--white-900);
+}
+
+.container figure {
+  position: relative;
+}
+
+.container figure::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: var(--violet-700);
+  opacity: 50%;
+}
