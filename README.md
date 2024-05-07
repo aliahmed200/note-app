@@ -15,8 +15,8 @@
 
 # Project Images
 
-![alt text](https://github.com/aliahmed200/cv-builder/blob/new-version/src/Assets/1.png?raw=true)
-![alt text](https://github.com/aliahmed200/cv-builder/blob/new-version/src/Assets/4.png?raw=true)
-![alt text](https://github.com/aliahmed200/cv-builder/blob/new-version/src/Assets/3.png?raw=true)
-![alt text](https://github.com/aliahmed200/cv-builder/blob/new-version/src/Assets/2.png?raw=true)
+![alt text](https://github.com/aliahmed200/note-app/blob/my-new-branch/dist/Assets/screencapture-localhost-3001-login-2024-05-07-12_40_52.png?raw=true)
+![alt text](https://github.com/aliahmed200/note-app/blob/my-new-branch/dist/Assets/screencapture-localhost-3001-signup-2024-05-07-12_41_10.png?raw=true)
+![alt text](https://github.com/aliahmed200/note-app/blob/my-new-branch/dist/Assets/screencapture-localhost-3001-2024-05-07-12_41_52.png?raw=true)
+![alt text](https://github.com/aliahmed200/note-app/blob/my-new-branch/dist/Assets/screencapture-localhost-3001-2024-05-07-12_42_40.png?raw=true)
 
